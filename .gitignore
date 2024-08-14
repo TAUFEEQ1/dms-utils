@@ -1,0 +1,28 @@
+# Ignore vendor directory
+/vendor/
+
+# Ignore composer.lock file
+composer.lock
+
+# Ignore IDE specific files
+.idea/
+.vscode/
+
+# Ignore logs and cache files
+/log/
+/cache/
+
+# Ignore environment specific files
+.env
+.env.local
+.env.*.local
+
+# Ignore build artifacts
+/build/
+/dist/
+
+# Ignore user-specific files
+*.swp
+.DS_Store
+ugpass_utils.py
+sample.pdf

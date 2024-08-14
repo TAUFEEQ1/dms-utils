@@ -1,0 +1,24 @@
+{
+    "name": "nita-u/dms-utils",
+    "description": "\"A package porting functionalities from edoc to php ecosystem with in nita-u\"",
+    "type": "library",
+    "license": "MIT",
+    "version": "1.0.0",
+    "autoload": {
+        "psr-4": {
+            "NitaU\\DmsUtils\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Nsamba Taufeeq"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^8.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.3"
+    }
+}
